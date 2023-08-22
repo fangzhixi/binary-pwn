@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9d28458-7f57-4c79-bafb-d206985224ad" name="Default Changelist" comment="" />
+    <list default="true" id="e9d28458-7f57-4c79-bafb-d206985224ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PWN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PWN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ret2_libc2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ret2_libc2_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ret2_libc3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ret2_libc3_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ret2_libc3_21.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ret2_shellcode1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ret2_shellcode1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="PWN" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -59,6 +65,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file:///usr/local/lib/python3.8/dist-packages/keyboard/__init__.py" root0="SKIP_INSPECTION" />
@@ -115,20 +124,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/mnt/hgfs/PWN",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/hgfs/PWN&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="PWN" is-module-sdk="true">
@@ -143,22 +154,22 @@
       <window_info id="Bookmarks" side_tool="true" />
       <window_info id="Merge Requests" />
       <window_info id="Commit_Guest" />
-      <window_info id="Pull Requests" />
+      <window_info active="true" id="Pull Requests" weight="0.1858724" />
       <window_info id="Learn" show_stripe_button="false" weight="0.15983072" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1858724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.50102043" visible="true" weight="0.29785156" />
       <window_info id="Commit" order="1" weight="0.25" />
-      <window_info id="Structure" order="2" show_stripe_button="false" side_tool="true" weight="0.1780599" />
+      <window_info active="true" id="Structure" order="2" sideWeight="0.4989796" side_tool="true" visible="true" weight="0.29785156" />
       <window_info id="Hierarchy" order="3" weight="0.16048178" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Python Packages" weight="0.3302696" />
+      <window_info anchor="bottom" id="Python Packages" visible="true" weight="0.3302696" />
       <window_info anchor="bottom" id="TODO" weight="0.3302696" />
       <window_info anchor="bottom" id="File Transfer" />
       <window_info anchor="bottom" id="Python Console" weight="0.31066176" />
       <window_info anchor="bottom" id="Run" weight="0.33394608" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3302696" />
       <window_info anchor="bottom" id="Problems View" order="1" weight="0.36090684" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.33394608" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.31433824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3302696" />
       <window_info anchor="bottom" id="Services" order="4" weight="0.34865195" />
       <window_info anchor="right" id="Endpoints" />
@@ -358,6 +369,9 @@
       <workItem from="1692459802404" duration="20196000" />
       <workItem from="1692540417250" duration="1594000" />
       <workItem from="1692625907982" duration="7887000" />
+      <workItem from="1692713065658" duration="2622000" />
+      <workItem from="1692715719312" duration="148000" />
+      <workItem from="1692715895015" duration="80000" />
     </task>
     <servers />
   </component>
@@ -387,26 +401,26 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PWN$ret2_libc2.coverage" NAME="ret2_libc2 Coverage Results" MODIFIED="1691918053237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$ret2_shellcode.coverage" NAME="ret2_shellcode 覆盖结果" MODIFIED="1691831434447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$ret2_libc3.coverage" NAME="ret2_libc3 Coverage Results" MODIFIED="1692455913169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$ret2shellcode.coverage" NAME="ret2shellcode 覆盖结果" MODIFIED="1691825517758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$ret2_shellcode2.coverage" NAME="ret2_shellcode2 Coverage Results" MODIFIED="1692516084432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$ret2_text2.coverage" NAME="ret2_text2 Coverage Results" MODIFIED="1692499141420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PWN$pytest__pwn_start_py__.coverage" NAME="pytest (test_pwn_start.py 内) 覆盖结果" MODIFIED="1691828195500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$ret2_syscall.coverage" NAME="ret2_syscall Coverage Results" MODIFIED="1691916814521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$ret2_libc1_4.coverage" NAME="ret2_libc1_4 Coverage Results" MODIFIED="1692520722334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$ret2_libc2_2.coverage" NAME="ret2_libc2_2 Coverage Results" MODIFIED="1692372708654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$ret2_libc1_1.coverage" NAME="ret2_libc1_1 Coverage Results" MODIFIED="1692514845159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$ret2_shellcode.coverage" NAME="ret2_shellcode 覆盖结果" MODIFIED="1691831434447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$pwn_start.coverage" NAME="pwn_start Coverage Results" MODIFIED="1692025248526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$PicoCTF_2018_rop_chain.coverage" NAME="PicoCTF_2018_rop_chain Coverage Results" MODIFIED="1692459483140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$ret2syscall.coverage" NAME="ret2syscall 覆盖结果" MODIFIED="1691827146695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PWN$ret2_text.coverage" NAME="ret2_text 覆盖结果" MODIFIED="1691832851446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PWN$ret2_libc1.coverage" NAME="ret2_libc1 Coverage Results" MODIFIED="1692514997835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PWN$pytest__ret2libc2_py__.coverage" NAME="pytest (ret2libc2.py 内) 覆盖结果" MODIFIED="1691825035421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$ret2_syscall.coverage" NAME="ret2_syscall Coverage Results" MODIFIED="1691916814521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$re2_libc1_1.coverage" NAME="ret2_libc1_1 Coverage Results" MODIFIED="1692459348934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$ret2_libc1_1.coverage" NAME="ret2_libc1_1 Coverage Results" MODIFIED="1692514845159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$pwn_start_MyTestCase_test_something__pytest.coverage" NAME="test_pwn_start.MyTestCase.test_something 的 pytest 覆盖结果" MODIFIED="1691826624452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$ret2shellcode.coverage" NAME="ret2shellcode 覆盖结果" MODIFIED="1691825517758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$pwn_start.coverage" NAME="pwn_start Coverage Results" MODIFIED="1692025248526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$ret2_shellcode2.coverage" NAME="ret2_shellcode2 Coverage Results" MODIFIED="1692516084432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$ret2_libc1_4.coverage" NAME="ret2_libc1_4 Coverage Results" MODIFIED="1692520722334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$ret2_libc2_2.coverage" NAME="ret2_libc2_2 Coverage Results" MODIFIED="1692372708654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$PicoCTF_2018_rop_chain.coverage" NAME="PicoCTF_2018_rop_chain Coverage Results" MODIFIED="1692459483140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$ret2syscall.coverage" NAME="ret2syscall 覆盖结果" MODIFIED="1691827146695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$ret2_libc3.coverage" NAME="ret2_libc3 Coverage Results" MODIFIED="1692455913169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PWN$ret2libc1.coverage" NAME="ret2libc1 覆盖结果" MODIFIED="1691827983675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PWN$ret2_text2.coverage" NAME="ret2_text2 Coverage Results" MODIFIED="1692499141420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$re2_libc1_1.coverage" NAME="ret2_libc1_1 Coverage Results" MODIFIED="1692459348934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$pwn_start_MyTestCase_test_something__pytest.coverage" NAME="test_pwn_start.MyTestCase.test_something 的 pytest 覆盖结果" MODIFIED="1691826624452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PWN$ret2_libc2.coverage" NAME="ret2_libc2 Coverage Results" MODIFIED="1691918053237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ret2text.py" />

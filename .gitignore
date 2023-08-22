@@ -13,6 +13,7 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
-.idea
-.pytest_cache
-__pycache__
+.idea/
+.pytest_cache/
+.vscode/
+__pycache__/
