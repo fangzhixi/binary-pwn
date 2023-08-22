@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9d28458-7f57-4c79-bafb-d206985224ad" name="Default Changelist" comment="ret2_libc3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ret2_libc3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ret2_libc3_2.py" afterDir="false" />
-    </list>
+    <list default="true" id="e9d28458-7f57-4c79-bafb-d206985224ad" name="Default Changelist" comment="ret2_libc3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -379,7 +376,7 @@
       <workItem from="1692625907982" duration="7887000" />
       <workItem from="1692713065658" duration="2622000" />
       <workItem from="1692715719312" duration="148000" />
-      <workItem from="1692715895015" duration="1314000" />
+      <workItem from="1692715895015" duration="1627000" />
     </task>
     <servers />
   </component>
