@@ -4,8 +4,8 @@ file_name = '/mnt/hgfs/Cyber Security PWN/buuoj/PicoCTF_2018_rop_chain'
 host = 'node4.buuoj.cn'
 port = 27966
 
-io = remote(host, port)
-# io = process([file_name])
+# io = remote(host, port)
+io = process([file_name])
 elf = ELF(file_name)
 
 exit_plt = p32(elf.plt['exit'])
