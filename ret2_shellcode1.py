@@ -2,6 +2,9 @@ from pwn import *
 
 '''
     PWN 第二章 ShellCode
+    
+    此章节要点:
+        程序无system('/bin/sh')后门函数, 但bss段可读写执行, 可以往BSS段注入shellcode实现pwn
 
     ShellCode实现方式:
         1.找到程序片段中可写可执行内存区域（RWX）,并且确保该片段没有随机内存地址(ASMR、Canary)保护

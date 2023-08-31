@@ -1,5 +1,12 @@
 from pwn import *
 
+'''
+    PWN 第三章第一节 libc1
+
+    此章节要点:
+        程序有system与'/bin/sh'片段, 通过构造gadget调用system('/bin/sh')实现pwn
+'''
+
 
 def ret2_libc1_1(file_name='/mnt/hgfs/Cyber Security PWN/ROP/ret2libc1'):
     print('call ret2libc1 start')

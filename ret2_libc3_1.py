@@ -1,5 +1,18 @@
 from pwn import *
 
+'''
+    PWN 第三章第三节 libc3
+
+    此章节要点:
+        程序无system与'/bin/sh'片段, 但提供了libc源文件, 需通过gadget链主动泄露虚拟内存中system与'/bin/sh'的存放位置, 并并执行system('/bin/sh')实现pwn
+    
+    实现方式:
+        1.通过静态、动态分析定位键盘输入中断时，got表中已经执行的libc函数funcA
+        2.通过gadget使用输出函数（printf、read）等输出got表funcA的入口地址
+        3.静态分析libc文件中funcA的text地址，并通过计算相对位置funcA与system、'/bin/sh'的相对位置得出system、'/bin/sh'的入口地址
+        3.劫持栈帧EIP值, 将EIP强制跳转至调用system('/bin/sh')
+'''
+
 
 def ret_libc3_1(file_name='/mnt/hgfs/Cyber Security PWN/ROP/ret2libc3/ret2libc3'):
     print('ret_libc3 start')

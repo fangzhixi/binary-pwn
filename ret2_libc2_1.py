@@ -1,11 +1,10 @@
 from pwn import *
 
 '''
-1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
-FFAF8DBC gets 0x8048460
-FFAF8DB8 system 0x8048490
-FFAF8DB0 0804A080
-FFAF8DB4 0804A080
+    PWN 第三章第二节 libc2
+
+    此章节要点:
+        程序有system但无'/bin/sh'片段, 需要通过gadget调用read手动传入'/bin/sh'并执行system('/bin/sh')实现pwn
 '''
 
 

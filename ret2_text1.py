@@ -3,6 +3,9 @@ from pwn import *
 '''
     PWN 第一章 控制流（EIP）劫持
 
+    此章节要点:
+        程序自带system('/bin/sh')后门函数, 通过栈溢出至EIP劫持控制流实现pwn
+
     实现方式:
         1.找到代码区（Text）中存放System调用函数
         1.找到栈帧注入、溢出点
