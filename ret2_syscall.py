@@ -10,7 +10,7 @@ from pwn import *
         eax = 0xb
         ebx = "/bin/bash"
         ecx = 0x0
-        edx = 0x0 v 
+        edx = 0x0
         int 0x80
         
     栈帧SystemCall实现方式:
