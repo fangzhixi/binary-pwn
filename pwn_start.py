@@ -10,6 +10,7 @@ from ret2_text2 import ret2_text2
         1、checksec './ELF文件'
         2、ROPgadget --binary './ELF文件' --only 'pop|ret|int'
         3、gdb -> vmmap
+            gdb.attach(process) 监控process执行流
 '''
 
 
