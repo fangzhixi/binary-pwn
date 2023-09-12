@@ -5,8 +5,8 @@ from LibcSearcher import *
 def ciscn_2019_c_1(file_name='/mnt/hgfs/CyberSecurity/PWN/buuoj/ciscn_2019_c_1'):
     context(log_level='debug', arch='amd64', os='linux')
     print('ciscn_2019_c_1 start')
-    # target = process([file_name])
-    target = remote('node4.buuoj.cn', 27836)
+    target = process([file_name])
+    # target = remote('node4.buuoj.cn', 27836)
     target_elf = ELF(file_name)
     # gdb.attach(target, 'b *0x0000000000400AE2')
 
