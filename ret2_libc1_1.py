@@ -8,7 +8,7 @@ from pwn import *
 '''
 
 
-def ret2_libc1_1(file_name='/mnt/hgfs/Cyber Security PWN/ROP/ret2libc1'):
+def ret2_libc1_1(file_name='/mnt/hgfs/CyberSecurity/PWN/ROP/ret2libc1'):
     print('call ret2libc1 start')
     try:
         print(file_name)

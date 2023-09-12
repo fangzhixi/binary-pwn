@@ -30,5 +30,5 @@ class PwnAutomation:
 
 
 if __name__ == '__main__':
-    f_name = '/mnt/hgfs/Cyber Security PWN/ROP/ret2libc2'
+    f_name = '/mnt/hgfs/CyberSecurity/PWN/ROP/ret2libc2'
     PwnAutomation().start(f_name, False)

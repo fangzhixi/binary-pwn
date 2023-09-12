@@ -1,7 +1,7 @@
 from pwn import *
 
 
-def ret2_shellcode2(file_name='/mnt/hgfs/Cyber Security PWN/test/pwn1/level1'):
+def ret2_shellcode2(file_name='/mnt/hgfs/CyberSecurity/PWN/test/pwn1/level1'):
     print('call ret2shellcode2 start\n\n')
 
     elf = ELF(file_name)

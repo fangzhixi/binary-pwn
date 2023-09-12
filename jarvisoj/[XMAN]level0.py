@@ -1,7 +1,7 @@
 from pwn import *
 
 
-def x_man_level0(file_name='/mnt/hgfs/Cyber Security PWN/jarvisoj/[XMAN]level0'):
+def x_man_level0(file_name='/mnt/hgfs/CyberSecurity/PWN/jarvisoj/[XMAN]level0'):
     print("[XMAN]level0 start")
     io = remote('pwn2.jarvisoj.com', 9881)
     elf = ELF(file_name)

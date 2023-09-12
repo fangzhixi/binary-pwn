@@ -1,7 +1,7 @@
 from pwn import *
 
 
-def x_man_level2(file_name='/mnt/hgfs/Cyber Security PWN/jarvisoj/[XMAN]level2'):
+def x_man_level2(file_name='/mnt/hgfs/CyberSecurity/PWN/jarvisoj/[XMAN]level2'):
     print('[XMAN]level2 start')
     # io = process([file_name])
     io = remote('pwn2.jarvisoj.com', 9878)

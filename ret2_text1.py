@@ -14,7 +14,7 @@ from pwn import *
 '''
 
 
-def ret2_text1(file_name='/mnt/hgfs/Cyber Security PWN/ROP/ret2text'):
+def ret2_text1(file_name='/mnt/hgfs/CyberSecurity/PWN/ROP/ret2text'):
     print('call ret2_text1 start')
     try:
         io = process([file_name])

@@ -21,7 +21,7 @@ from pwn import *
 '''
 
 
-def ret2_systemcall(file_name='/mnt/hgfs/Cyber Security PWN/ROP/ret2syscall'):
+def ret2_systemcall(file_name='/mnt/hgfs/CyberSecurity/PWN/ROP/ret2syscall'):
     print('call ret2syscall start')
     try:
         io = process([file_name])

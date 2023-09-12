@@ -9,7 +9,7 @@ from pwn import *
 '''
 
 
-def ret2_libc3_2(file_name='/mnt/hgfs/Cyber Security PWN/test/pwn3/level3'):
+def ret2_libc3_2(file_name='/mnt/hgfs/CyberSecurity/PWN/test/pwn3/level3'):
     # 前置：文件载入
     io = process([file_name])
     libc = ELF("/lib/i386-linux-gnu/libc.so.6")

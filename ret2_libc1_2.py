@@ -1,7 +1,7 @@
 from pwn import *
 
 
-def ret2_libc1_2(file_name='/mnt/hgfs/Cyber Security PWN/ROP/ret2libc1'):
+def ret2_libc1_2(file_name='/mnt/hgfs/CyberSecurity/PWN/ROP/ret2libc1'):
     print('call ret2libc1 start')
     try:
         io = process([file_name])

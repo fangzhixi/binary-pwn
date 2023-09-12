@@ -14,7 +14,7 @@ from pwn import *
 '''
 
 
-def ret_libc3_1(file_name='/mnt/hgfs/Cyber Security PWN/ROP/ret2libc3/ret2libc3'):
+def ret_libc3_1(file_name='/mnt/hgfs/CyberSecurity/PWN/ROP/ret2libc3/ret2libc3'):
     print('ret_libc3 start')
 
     io = process([file_name])

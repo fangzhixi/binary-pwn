@@ -8,7 +8,7 @@ from pwn import *
 '''
 
 
-def ret2_libc2_1(file_name='/mnt/hgfs/Cyber Security PWN/ROP/ret2libc2'):
+def ret2_libc2_1(file_name='/mnt/hgfs/CyberSecurity/PWN/ROP/ret2libc2'):
     io = process([file_name])
     file_elf = ELF(file_name)
     system_plt = file_elf.plt['system']
