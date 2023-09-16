@@ -1,7 +1,7 @@
 from pwn import *
 
 
-def ret2_libc3_3(file_name='/mnt/hgfs/Cyber Security PWN/test/pwn3_x64/level3_x64'):
+def ret2_libc3_3(file_name='/mnt/hgfs/CyberSecurity/PWN/test/pwn3_x64/level3_x64'):
     print("ret2_libc3 start")
 
     io = process([file_name])

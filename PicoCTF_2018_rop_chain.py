@@ -1,6 +1,6 @@
 from pwn import *
 
-file_name = '/mnt/hgfs/Cyber Security PWN/buuoj/PicoCTF_2018_rop_chain'
+file_name = '/mnt/hgfs/CyberSecurity/PWN/buuoj/PicoCTF_2018_rop_chain'
 host = 'node4.buuoj.cn'
 port = 27966
 

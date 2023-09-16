@@ -1,7 +1,7 @@
 from pwn import *
 
 
-def ret2_libc1_3(file_name='/mnt/hgfs/Cyber Security PWN/test/pwn2/level2'):
+def ret2_libc1_3(file_name='/mnt/hgfs/CyberSecurity/PWN/test/pwn2/level2'):
     elf = ELF(file_name)
     io = process([file_name])
 

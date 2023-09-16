@@ -10,6 +10,7 @@ from ret2_text2 import ret2_text2
         1、checksec './ELF文件'
         2、ROPgadget --binary './ELF文件' --only 'pop|ret|int'
         3、gdb -> vmmap
+            gdb.attach(process) 监控process执行流
 '''
 
 
@@ -29,5 +30,5 @@ class PwnAutomation:
 
 
 if __name__ == '__main__':
-    f_name = '/mnt/hgfs/Cyber Security PWN/ROP/ret2libc2'
+    f_name = '/mnt/hgfs/CyberSecurity/PWN/ROP/ret2libc2'
     PwnAutomation().start(f_name, False)
