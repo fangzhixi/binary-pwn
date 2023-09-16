@@ -25,7 +25,6 @@ def pwn_5_2019(file_name=r'/mnt/hgfs/CyberSecurity/PWN/buuoj/[第五空间2019 �
     target.recvline()
     target.interactive()
 
-
     print('pwn_5_2019 end')
 
 

