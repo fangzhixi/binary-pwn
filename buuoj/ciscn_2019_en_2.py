@@ -5,7 +5,7 @@ from LibcSearcher import *
 def ciscn_2019_en_2(file_name='/mnt/hgfs/CyberSecurity/PWN/buuoj/ciscn_2019_en_2'):
     print('ciscn_2019_en_2 start')
     target = process([file_name])
-    target = remote('node4.buuoj.cn', 26087)
+    target = remote('node4.buuoj.cn', 25811)
     target_elf = ELF(file_name)
 
     puts_plt = p64(target_elf.plt['puts'])
