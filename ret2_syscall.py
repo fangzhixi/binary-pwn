@@ -7,7 +7,7 @@ from pwn import *
         程序无system与'/bin/sh', 但有pop eax、ebx、ecx、edx、int 80等gadget片段，通过gadget系统中断实现pwn
     
     汇编调用system("/bin/bash")方式:
-        eax = 0xb
+        eax = 0xB
         ebx = "/bin/bash"
         ecx = 0x0
         edx = 0x0
