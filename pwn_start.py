@@ -1,7 +1,7 @@
 from ret2_libc1_1 import ret2_libc1
 from ret2_libc2_1 import ret2_libc2
 from ret2_shellcode1 import ret2_shellcode
-from ret2_syscall import ret2_systemcall
+from ret2_syscall_1 import ret2_systemcall
 from ret2_text1 import ret2_text1
 from ret2_text2 import ret2_text2
 

